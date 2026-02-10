@@ -1,0 +1,30 @@
+{
+    "name": "goroses/deployhub",
+    "description": "DeployHub - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deployhub\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deployhub\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "goroses"
+        }
+    ]
+}
